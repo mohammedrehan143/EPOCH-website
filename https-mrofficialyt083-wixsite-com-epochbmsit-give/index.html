@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | EPOCH Society</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="animated-bg" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader-ring"></div>
+    <img src="epoch-logo.png" alt="">
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <img src="epoch-logo.png" alt="EPOCH Society logo">
+      <span>EPOCH Society</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#upcoming-events">Events</a>
+      <a href="#contact">Contact</a>
+      <div class="nav-dropdown">
+        <button class="dropdown-toggle" type="button" aria-label="More options" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="dropdown-menu">
+          <a href="#upcoming-events">Upcoming Events</a>
+          <a href="#past-events">Past Events Gallery</a>
+          <a href="login.html">Login</a>
+          <a href="login.html">Event Documents</a>
+          <a href="#services">Services</a>
+          <a href="#past-members">Past Members</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+      <div class="hero-content">
+        <img class="hero-logo" src="epoch-logo.png" alt="EPOCH Society logo">
+        <p class="kicker">BMSIT&M Tech Club</p>
+        <h1>EPOCH SOCIETY</h1>
+        <p class="hero-campus">@ BMSIT&M</p>
+        <p class="hero-tagline">"THE FUTURE IS JUST ONE EPOCH AWAY"</p>
+        <p class="hero-copy">
+          EPOCHsociety is the tech club at BMSIT, dedicated to exploring the latest trends in technology and innovations.
+          We provide a platform for students to share knowledge, collaborate on projects, and engage with industry experts
+          to enhance their technical skills and understanding.
+        </p>
+        <button id="joinButton" class="button primary" type="button">Join Us</button>
+        <p id="joinMessage" class="join-message" role="status"></p>
+      </div>
+    </section>
+
+    <div class="marquee" aria-label="Set to go">
+      <div class="marquee-track">
+        <span>set to go</span>
+        <span>set to go</span>
+        <span>set to go</span>
+        <span>set to go</span>
+        <span>set to go</span>
+        <span>set to go</span>
+        <span>set to go</span>
+        <span>set to go</span>
+      </div>
+    </div>
+
+    <section id="about" class="about section">
+      <div class="section-inner about-panel">
+        <div class="about-heading">
+          <p class="kicker">About Us</p>
+          <h2>Built for curious technologists.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            At EPOCHsociety, we are passionate about technology and its impact on society. We organize workshops,
+            hackathons, and tech talks that cover a wide range of topics from software development to emerging technologies.
+          </p>
+          <p>
+            Our goal is to foster a vibrant community that encourages learning, creativity, and collaboration among tech
+            enthusiasts.
+          </p>
+          <div class="about-stats">
+            <span>Workshops</span>
+            <span>Hackathons</span>
+            <span>Tech Talks</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section">
+      <div class="section-inner">
+        <p class="kicker">Testimonials</p>
+        <h2>Voices from the community</h2>
+        <div class="testimonial-grid">
+          <article>
+            <p>"Joining EPOCHsociety has been a transformative experience for my career. The workshops and networking opportunities are invaluable."</p>
+            <strong>Alex Turner</strong>
+          </article>
+          <article>
+            <p>"The events hosted by EPOCHsociety have helped me connect with like-minded individuals and deepen my understanding of technology."</p>
+            <strong>Maria Johnson</strong>
+          </article>
+          <article>
+            <p>"EPOCHsociety's focus on practical skills and real-world applications has significantly boosted my confidence in tech projects."</p>
+            <strong>Rahul Patel</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="how section">
+      <div class="section-inner">
+        <p class="kicker">How It Works</p>
+        <h2>Engagement & Collaboration</h2>
+        <div class="feature-grid">
+          <article>
+            <span>01</span>
+            <h3>Workshops</h3>
+            <h4>Hands-On Learning</h4>
+            <p>Our workshops provide hands-on experience with the latest technologies, ensuring participants gain practical skills that are applicable in real-world scenarios.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Networking</h3>
+            <h4>Building Connections</h4>
+            <p>We facilitate networking opportunities with industry professionals and alumni, allowing members to build valuable relationships and mentorships.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Projects</h3>
+            <h4>Team-Based Innovation</h4>
+            <p>Members collaborate on projects that challenge their skills and creativity, fostering innovation and teamwork within the tech community.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="upcoming-events" class="upcoming-events section">
+      <div class="section-inner">
+        <p class="kicker">Upcoming Events</p>
+        <h2>What is coming next</h2>
+        <div class="event-list">
+          <article>
+            <div class="event-date">
+              <span>18</span>
+              <small>May</small>
+            </div>
+            <div>
+              <h3>AI Sprint Workshop</h3>
+              <p>Hands-on session on prompt engineering, automation, and building useful mini AI tools.</p>
+            </div>
+            <a class="event-action" href="#login">Register</a>
+          </article>
+          <article>
+            <div class="event-date">
+              <span>02</span>
+              <small>Jun</small>
+            </div>
+            <div>
+              <h3>Code Clash</h3>
+              <p>A fast-paced coding challenge for students who enjoy logic, teamwork, and problem solving.</p>
+            </div>
+            <a class="event-action" href="#login">Register</a>
+          </article>
+          <article>
+            <div class="event-date">
+              <span>21</span>
+              <small>Jun</small>
+            </div>
+            <div>
+              <h3>Tech Talk Evening</h3>
+              <p>Industry-style talk covering emerging technology, product thinking, and student projects.</p>
+            </div>
+            <a class="event-action" href="#login">Register</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="past-events" class="past-events section">
+      <div class="section-inner">
+        <p class="kicker">Past Events</p>
+        <h2>Gallery of our moments</h2>
+        <div class="gallery-grid">
+          <article>
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=700&q=80" alt="Workshop event">
+            <div>
+              <h3>Innovation Workshop</h3>
+              <p>Hands-on building session</p>
+            </div>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=700&q=80" alt="Hackathon event">
+            <div>
+              <h3>Hackathon Meet</h3>
+              <p>Team-based problem solving</p>
+            </div>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=700&q=80" alt="Tech talk event">
+            <div>
+              <h3>Tech Talk</h3>
+              <p>Learning from speakers</p>
+            </div>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=700&q=80" alt="Community meetup event">
+            <div>
+              <h3>Community Meetup</h3>
+              <p>Networking and ideas</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="past-members" class="past-members section">
+      <div class="section-inner">
+        <p class="kicker">Past Members</p>
+        <h2>People who helped build EPOCH</h2>
+        <div class="member-grid">
+          <article>
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=80" alt="Past member Aanya Rao">
+            <h3>Aanya Rao</h3>
+            <p>Former President</p>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80" alt="Past member Rohan Mehta">
+            <h3>Rohan Mehta</h3>
+            <p>Technical Lead</p>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=500&q=80" alt="Past member Nisha Kumar">
+            <h3>Nisha Kumar</h3>
+            <p>Events Coordinator</p>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80" alt="Past member Arjun Shah">
+            <h3>Arjun Shah</h3>
+            <p>Design & Media</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="services section">
+      <div class="section-inner">
+        <p class="kicker">FAQ</p>
+        <h2>Membership Benefits</h2>
+        <div class="benefit-grid">
+          <article>
+            <h3>Membership Benefits</h3>
+            <p>Discover the various benefits of joining EPOCHsociety, including access to exclusive resources, events, and mentorship opportunities.</p>
+          </article>
+          <article>
+            <h3>Event Participation</h3>
+            <p>Learn how to get involved in our events and workshops, and what you can expect from participating.</p>
+          </article>
+          <article>
+            <h3>Collaboration Opportunities</h3>
+            <p>Explore the different ways you can collaborate with other members and organizations through EPOCHsociety.</p>
+          </article>
+          <article>
+            <h3>Skill Development</h3>
+            <p>Find out about the skill development programs and resources we offer to help you grow as a tech enthusiast.</p>
+          </article>
+          <article>
+            <h3>Alumni Network</h3>
+            <p>Learn how our alumni network can provide support and guidance as you progress in your tech career.</p>
+          </article>
+          <article>
+            <h3>Contact Us</h3>
+            <p>Get in touch with us for any inquiries about membership, events, or how to get involved with EPOCHsociety.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="section-inner split">
+        <div>
+          <p class="kicker">Contact Us</p>
+          <h2>Reach Out</h2>
+          <p>
+            We welcome your questions, feedback, or suggestions. Contact us to learn more about EPOCHsociety and how you
+            can be part of our tech community.
+          </p>
+          <ul class="contact-list">
+            <li><a href="tel:1234567890">123-456-7890</a></li>
+            <li><a href="mailto:info@mysite.com">info@mysite.com</a></li>
+            <li>500 Terry Francine St. San Francisco, CA 94158</li>
+          </ul>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <label>Name *
+            <input type="text" name="name" required>
+          </label>
+          <label>Email *
+            <input type="email" name="email" required>
+          </label>
+          <label>Mobile Number *
+            <input type="tel" name="mobile" required>
+          </label>
+          <button class="button primary" type="submit">Submit</button>
+          <p id="formMessage" class="form-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>EPOCH Society</p>
+    <div>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="accessibility-statement.html">Accessibility Statement</a>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">Top</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

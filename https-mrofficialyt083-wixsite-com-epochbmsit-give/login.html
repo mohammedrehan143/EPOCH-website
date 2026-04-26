@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | EPOCH Society</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="animated-bg" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html#home">
+      <img src="epoch-logo.png" alt="EPOCH Society logo">
+      <span>EPOCH Society</span>
+    </a>
+    <nav class="nav-links login-nav" aria-label="Login navigation">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#upcoming-events">Events</a>
+      <a href="#documents">Documents</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="login" class="login-section section">
+      <div class="section-inner login-panel">
+        <div>
+          <p class="kicker">Member Login</p>
+          <h1 class="login-title">Access the EPOCH portal</h1>
+          <p>
+            Login can be connected to a real database later. For now, this demo stores your login name in this browser
+            and returns you to the document area.
+          </p>
+        </div>
+        <form id="loginForm" class="login-form">
+          <label>Email or USN
+            <input type="text" name="loginId" required>
+          </label>
+          <label>Password
+            <input type="password" name="password" required>
+          </label>
+          <button class="button primary" type="submit">Login</button>
+          <p id="loginMessage" class="form-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="documents" class="documents-section section locked">
+      <div class="section-inner">
+        <div class="documents-header">
+          <div>
+            <p class="kicker">Member Documents</p>
+            <h2>Event-wise document library</h2>
+            <p class="documents-note">Login to view event headings with multiple PDF documents under each event.</p>
+          </div>
+          <button id="logoutButton" class="button ghost" type="button">Logout</button>
+        </div>
+
+        <div id="documentBoard" class="document-board" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
